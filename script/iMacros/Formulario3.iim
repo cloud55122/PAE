@@ -1,0 +1,27 @@
+VERSION BUILD=844 RECORDER=CR
+URL GOTO=http://localhost:8080/rest/verificaciontransporteviveres
+TAG POS=1 TYPE=SELECT FORM=ID:verificacionTransporteForm ATTR=ID:subregion CONTENT=%5
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtOperador CONTENT=Gabriel
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtProveedor CONTENT=Maria
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtAlimentosProvee CONTENT=Muchos
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtDireccionProveedor CONTENT=Cra<SP>23<SP>No<SP>89-10<SP>Las<SP>palmas
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:verificacionTransporteForm ATTR=ID:txtTelefonoProveedor CONTENT=12345
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtOperadorCabecera CONTENT=Servientrega
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtCabeceraUnidad CONTENT=Transporte<SP>Don<SP>carlos
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionTransporteForm ATTR=NAME:c1
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionTransporteForm ATTR=NAME:c2
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionTransporteForm ATTR=NAME:c3
+TAG POS=8 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionTransporteForm ATTR=NAME:c4
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionTransporteForm ATTR=NAME:c5
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionTransporteForm ATTR=NAME:c6
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionTransporteForm ATTR=NAME:c7
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionTransporteForm ATTR=NAME:c8
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionTransporteForm ATTR=ID:txtComentario CONTENT=Comentarios
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtNombreResponsable CONTENT=Manuel
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtNombreProfesional CONTENT=Cristina
+TAG POS=1 TYPE=CANVAS ATTR=ID:TheCanvas
+TAG POS=2 TYPE=CANVAS ATTR=ID:TheCanvas
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtNombreReviso CONTENT=Gonzalo
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionTransporteForm ATTR=ID:txtNombreDigito CONTENT=Juan<SP>Jose
+TAG POS=4 TYPE=CANVAS ATTR=ID:TheCanvas

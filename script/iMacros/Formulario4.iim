@@ -1,0 +1,143 @@
+VERSION BUILD=844 RECORDER=CR
+URL GOTO=http://localhost:8080/rest/institucioneseducativas
+TAG POS=1 TYPE=HEADER ATTR=TXT:PROGRAMA<SP>DE<SP>ALIMIENTACIÓN<SP>ESCOLAR<SP>Instituciones*
+TAG POS=1 TYPE=SELECT FORM=ID:institucionesEducativasForm ATTR=ID:subregion CONTENT=%1
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtCorregimiento CONTENT=Corregimiento
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtBarrio CONTENT=Vereda
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtModeloOperacion CONTENT=Centralizado
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtNombreIE CONTENT=Institucion
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtNombreSedeIE CONTENT=Sede
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtCodigoDane CONTENT=1237890
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtNombreRector CONTENT=Rector
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtTelefonoRector CONTENT=33333
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtDocentePrograma CONTENT=Docente
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtTelefonoDocente CONTENT=000000
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtManipuladorAlimientos CONTENT=Manipulador
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtTelefonoManipuladorAlimientos CONTENT=77777
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtProfesionalVisita CONTENT=profesional
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtCargoProfesional CONTENT=ingeniero
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtNiñosMatriculados CONTENT=20
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtNiñosAtendidosRestaurante CONTENT=20
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtModalidadAtencion CONTENT=Centralizada
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtNiñosAtendidosGobernacion CONTENT=20
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtNiñosAtendidosMunicipio CONTENT=10
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtNiñosMatriculadosSecundaria CONTENT=10
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtNumIndigenas CONTENT=19
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtNumDesplazados CONTENT=27
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtNumDiscapacitados CONTENT=8
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:institucionesEducativasForm ATTR=ID:txtValorcobro CONTENT=500000
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c1
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c2
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtAreaObservacionesc2 CONTENT=obs
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c3
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c4
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c4
+TAG POS=3 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c4
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c4
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c4
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c5
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c6
+TAG POS=3 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c7
+TAG POS=4 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c8
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c21
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c22
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtAreaObservacionesc22 CONTENT=obs
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c23
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c24
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtAreaObservacionesc23 CONTENT=De<SP>alcantarillado
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c25
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c26
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c27
+TAG POS=3 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c28
+TAG POS=4 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c29
+TAG POS=69 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c210
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c31
+TAG POS=77 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c32
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c33
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtAreaObservacionesc33 CONTENT=Obs
+TAG POS=85 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c34
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c34
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c34
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c41
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c42
+TAG POS=97 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c43
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c44
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c45
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtAreaObservacionesc45 CONTENT=no<SP>esta
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c46
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c47
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtAreaObservacionesc47 CONTENT=obs
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c48
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c49
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c51
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c52
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtAreaObservacionesc52 CONTENT=obs
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c53
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c54
+TAG POS=145 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c62
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c63
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtAreaObservacionesc63 CONTENT=obs
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c61
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c64
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c65
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c66
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c71
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c72
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c73
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c74
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=3 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=3 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=181 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=4 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=183 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=3 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=184 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=4 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c81
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c82
+TAG POS=193 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=3 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c75
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c83
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtAreaObservacionesc83 CONTENT=obs
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c84
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c85
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c91
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c92
+TAG POS=3 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:c93
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtMarcaComercial1 CONTENT=Marca1
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtMarcaComercial2 CONTENT=Marca2
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtMarcaComercial3 CONTENT=Marca3
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtMarcaComercial4 CONTENT=Marca4
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtMarcaComercial5 CONTENT=Marca5
+TAG POS=1 TYPE=SELECT FORM=ID:institucionesEducativasForm ATTR=ID:alimentoRegistrado2 CONTENT=%3
+TAG POS=1 TYPE=SELECT FORM=ID:institucionesEducativasForm ATTR=ID:alimentoRegistrado3 CONTENT=%4
+TAG POS=4 TYPE=TD ATTR=TXT:Aceite<SP>vegetal<SP>Arepa<SP>de<SP>maíz<SP>de<SP>45<SP>gr*
+TAG POS=1 TYPE=SELECT FORM=ID:institucionesEducativasForm ATTR=ID:alimentoRegistrado4 CONTENT=%19
+TAG POS=1 TYPE=SELECT FORM=ID:institucionesEducativasForm ATTR=ID:alimentoRegistrado5 CONTENT=%15
+TAG POS=5 TYPE=LABEL FORM=ID:institucionesEducativasForm ATTR=TXT:NO
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:snEtiquetadoA1
+TAG POS=11 TYPE=LABEL FORM=ID:institucionesEducativasForm ATTR=TXT:NO
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:snEtiquetadoA3
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:snEmpacadoA2
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:snMarcaComercialA3
+TAG POS=15 TYPE=TD ATTR=TXT:SI<SP>NO
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:institucionesEducativasForm ATTR=NAME:snEmpacadoA5
+TAG POS=1 TYPE=TEXTAREA FORM=ID:institucionesEducativasForm ATTR=ID:txtComentario CONTENT=Todo<SP>en<SP>orden
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtNombreDocenteEncargado CONTENT=Manuel
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtNombreManipulador CONTENT=Carlos
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtNombreProfesional CONTENT=Carolina
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtNombreReviso CONTENT=Ariana
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:institucionesEducativasForm ATTR=ID:txtNombreDigito CONTENT=Gonzalo

@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+.viveres{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    padding: 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+    -webkit-box-shadow: 10px 8px 18px -1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 8px 18px -1px rgba(0,0,0,0.24);
+    box-shadow: 10px 8px 18px -1px rgba(0,0,0,0.24);
+
+}
+table.miyazaki {
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+  border-radius: 5px;
+
+  empty-cells: show;
+  max-width: 100%;
+  width: 100%;
+}
+.opciones{
+	text-align:center;
+	}
+table.miyazaki thead th { font-weight: 600;
+   border: 1px solid #e5e5e4;
+  background: #e2dfdc;
+  background-image: -webkit-linear-gradient(top, #fff, #e2dfdc);
+  background-image: linear-gradient(to bottom, #fff, #e2dfdc);
+
+  font-weight: 100;
+  color: #777;
+  text-transform: uppercase;
+  text-align:center;
+}
+table.miyazaki thead th, table.miyazaki tbody td {
+  padding: .8rem; font-size: 1.4rem;
+
+}
+table.miyazaki tbody td {
+  padding: .8rem; font-size: 1.4rem;
+  color: #444;
+}
+table.miyazaki tbody tr:not(:last-child) {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+div.error{
+  color: red ;
+  font-family: "Bookman Old Style";
+}
+div.gobierno{
+  background-image: url("../../resources/images/todosporunpaislogo.png");
+  width: 10%;
+  height: 10%;
+}
+div.contenedores{
+  margin: 0 auto;
+  width: 80%;
+}
+.version{ 
+	width: 100%;
+}
+.comentarios{
+	width:22%;
+	}
+.actividad{
+	width:10%;
+	}
+.logo1{
+    width: 40%; float: left; margin-top: 3%;margin-right: 2%;
+}
+.logo2{
+    width: 53%; float: left; margin-top:8%;
+}
+.logo3{
+    width: 100%; float: left;
+}
+@media screen and (max-width: 1250px){
+  .texto_tabla{
+    font-size: small;
+  }
+}
+@media screen and (max-width: 990px){
+  .texto_tabla{
+    font-size: medium;
+	width:30%;
+  }
+  .version{
+	  width:30%;
+	  margin:0 auto;
+	  
+	}
+}
+#cuadro1{
+    display: block;
+}
+#cuadro2{
+    display: none;
+}
+
+@media screen and (max-width: 990px){
+    .logo1{
+        width: 20%; float: left; margin-top: 3%;margin-right: 2%;
+    }
+    .logo2{
+        width: 33%; float: left; margin-top:8%;
+    }
+    .logo3{
+        width: 70%; float: left;
+    }
+    #cuadro2{
+        display: block;
+    }
+    #cuadro1{
+        display: none;
+    }
+}
+/*Quita la flecha de los campos tipo number*/
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+/*
+@media screen and (max-width: 600px) {
+  table.miyazaki caption { background-image: none; }
+  table.miyazaki thead { display: none; }
+  table.miyazaki tbody td {
+    display: block; padding: .6rem;
+  }
+  table.miyazaki tbody tr td:first-child {
+    background: #666; color: #fff;
+  }
+	table.miyazaki tbody td:before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: inline-block;
+    width: 6rem;
+  }
+}
+*/

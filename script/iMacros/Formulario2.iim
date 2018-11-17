@@ -1,0 +1,61 @@
+VERSION BUILD=844 RECORDER=CR
+URL GOTO=http://localhost:8080/rest/verificacionbodegas
+TAG POS=1 TYPE=SELECT FORM=ID:verificacionBodegasForm ATTR=ID:subregion CONTENT=%2
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtNombreProveedor CONTENT=Carlos
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtIdentificacionProveedor CONTENT=1234
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtProductosSuministrados CONTENT=Muchos
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtDireccionProveedor CONTENT=Direccion<SP>Test
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:verificacionBodegasForm ATTR=ID:txtTelefonoProveedor CONTENT=1234
+TAG POS=1 TYPE=INPUT:EMAIL FORM=ID:verificacionBodegasForm ATTR=ID:txtCorreoElectronico CONTENT=correo@gmail.com
+TAG POS=1 TYPE=INPUT:TIME FORM=ID:verificacionBodegasForm ATTR=ID:horavisita CONTENT=12:59
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtNombreRecibe CONTENT=Manuel
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:verificacionBodegasForm ATTR=ID:txtIdentificacionRecibe CONTENT=5678
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtNombreRealizaVisitaEnc CONTENT=Fernando
+TAG POS=1 TYPE=INPUT:NUMBER FORM=ID:verificacionBodegasForm ATTR=ID:txtIdentificacionRealizaVisitaEnc CONTENT=4567
+TAG POS=1 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c1
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c2
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c3
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c4
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionBodegasForm ATTR=ID:txtAreaObservacionesc2 CONTENT=Obsr
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c5
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionBodegasForm ATTR=ID:txtAreaObservacionesc5 CONTENT=obs
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c6
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c7
+TAG POS=16 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c8
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c9
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c10
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c11
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c21
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c22
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c23
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionBodegasForm ATTR=ID:txtAreaObservacionesc8 CONTENT=obs
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionBodegasForm ATTR=ID:txtAreaObservacionesc10 CONTENT=obs
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionBodegasForm ATTR=ID:txtAreaObservacionesc4 CONTENT=obs
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionBodegasForm ATTR=ID:txtAreaObservacionesc6 CONTENT=obs
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c31
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c32
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c33
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c34
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c41
+TAG POS=40 TYPE=TD ATTR=CLASS:opciones&&TXT:
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c42
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionBodegasForm ATTR=ID:txtAreaObservacionesc42 CONTENT=obs
+TAG POS=70 TYPE=TD ATTR=TXT:
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c43
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c44
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c45
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c51
+TAG POS=2 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c52
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionBodegasForm ATTR=ID:txtAreaObservacionesc52 CONTENT=obs
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:verificacionBodegasForm ATTR=NAME:c53
+TAG POS=1 TYPE=TEXTAREA FORM=ID:verificacionBodegasForm ATTR=ID:txtComentario CONTENT=Comentarios
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtNombreAtiendeVisita CONTENT=Gonzalo
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtNombreRealizaVisita CONTENT=Jose
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtCedulaAtiendeVisita CONTENT=788899
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtCedulaRealizaVisita CONTENT=888888
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtCargoAtiendeVisita CONTENT=Portero
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtCargoRealizaVisita CONTENT=Ingeniero
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtTelefonoAtiendeVisita CONTENT=1234
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:verificacionBodegasForm ATTR=ID:txtTelefonoRealizaVisita CONTENT=88888
